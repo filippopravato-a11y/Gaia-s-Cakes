@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prodotti e menu — Gaia's Cakes | Torte, pasticcini, lievitati e senza glutine</title>
+  <meta name="description" content="Il menu della Gaia's Cakes: torte artigianali, pasticcini mignon, lievitati a lunga fermentazione, linea senza glutine e torte su ordinazione.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,100,1;1,9..144,300..700,100,1&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Great+Vibes&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23F6E3EB'/%3E%3Cg fill='none' stroke='%236E3D64' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M16 5v5'/%3E%3Cpath d='M16 10C10 12 10 24 16 27'/%3E%3Cpath d='M16 10C22 12 22 24 16 27'/%3E%3Cpath d='M16 10v17'/%3E%3Cpath d='M11 23c2 1.6 8 1.6 10 0'/%3E%3C/g%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigazione principale">
+      <a class="brand" href="index.html">
+        <svg class="brand-whisk" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4v8"/><circle cx="20" cy="12" r="1.4" fill="currentColor" stroke="none"/><path d="M20 12C11 15 11 30 20 35"/><path d="M20 12C29 15 29 30 20 35"/><path d="M20 12C16 16 16 30 20 35"/><path d="M20 12C24 16 24 30 20 35"/><path d="M12.5 28c2.4 2.4 12.6 2.4 15 0"/></svg>
+        <span class="brand-name">Gaia's Cakes<small>Dolci su misura</small></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu-principale" aria-label="Apri il menu">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
+      <ul class="nav-list" id="menu-principale">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chi-siamo.html">Chi siamo</a></li>
+        <li><a href="prodotti.html" aria-current="page">Prodotti</a></li>
+        <li><a href="galleria.html">Galleria</a></li>
+        <li><a href="recensioni.html">Recensioni</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+        <li class="nav-cta"><a class="btn btn--primary" href="ordini-speciali.html">Ordina una torta</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenuto">
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Il menu</p>
+          <h1 style="font-size: var(--fs-h2);">Quello che trovi in vetrina <span class="accent-script">oggi</span></h1>
+          <p>La vetrina cambia con le stagioni e con il mio umore. Questi sono i classici che non mancano mai. I prezzi possono variare leggermente: al banco fa sempre fede il cartellino.</p>
+        </div>
+
+        <div class="filter-bar" data-filter-bar role="group" aria-label="Filtra per categoria">
+          <button class="filter-btn" data-filter="tutti" aria-pressed="true">Tutti</button>
+          <button class="filter-btn" data-filter="torte" aria-pressed="false">Torte</button>
+          <button class="filter-btn" data-filter="pasticcini" aria-pressed="false">Pasticcini</button>
+          <button class="filter-btn" data-filter="lievitati" aria-pressed="false">Lievitati</button>
+          <button class="filter-btn" data-filter="senza-glutine" aria-pressed="false">Senza glutine</button>
+          <button class="filter-btn" data-filter="ordinazione" aria-pressed="false">Su ordinazione</button>
+        </div>
+
+        <div class="card-grid">
+          <article class="card reveal" data-cat="torte">
+            <figure><img src="assets/img/foto/hero-torta-viola.jpg" width="1600" height="2400" loading="lazy" alt="Torta Viola con fiori di zucchero lavanda e glassa alla violetta"></figure>
+            <div class="card-body">
+              <span class="card-tag">La firma</span>
+              <h3>Torta Viola</h3>
+              <p>Mousse ai frutti di bosco, cuore di lampone, glassa alla violetta. La torta che dà il nome al laboratorio.</p>
+              <p class="card-price">€ 32 · 8 porzioni</p>
+            </div>
+          </article>
+          <article class="card reveal" data-cat="torte">
+            <figure><img src="assets/img/foto/torta-cioccolato.jpg" width="1200" height="882" loading="lazy" alt="Torta al cioccolato con glassa lucida e ciuffi di crema"></figure>
+            <div class="card-body">
+              <span class="card-tag">Torte</span>
+              <h3>Sacher della casa</h3>
+              <p>Cioccolato fondente al 70%, confettura di albicocche nostrana, glassa lucida a specchio.</p>
+              <p class="card-price">€ 28 · 8 porzioni</p>
+            </div>
+          </article>
+          <article class="card reveal" data-cat="torte">
+            <figure><img src="assets/img/photos/crostatine-frutta.jpg" width="1600" height="900" loading="lazy" alt="Crostata con frutta fresca a spicchi colorati"></figure>
+            <div class="card-body">
+              <span class="card-tag">Torte</span>
+              <h3>Crostata di frutti di bosco</h3>
+              <p>Frolla friabile al burro, crema pasticciera alla vaniglia e frutti di bosco del giorno.</p>
+              <p class="card-price">€ 24 · 6 porzioni</p>
+            </div>
+          </article>
+
+          <article class="card reveal" data-cat="pasticcini">
+            <figure><img src="assets/img/foto/macarons.jpg" width="1200" height="1518" loading="lazy" alt="Macarons assortiti impilati su sfondo rosa"></figure>
+            <div class="card-body">
+              <span class="card-tag">Pasticcini</span>
+              <h3>Macarons assortiti</h3>
+              <p>Lampone, violetta, pistacchio e vaniglia del Madagascar. In scatola regalo da 6 o 12.</p>
+              <p class="card-price">€ 12 · scatola da 6</p>
+            </div>
+          </article>
+          <article class="card reveal" data-cat="pasticcini">
+            <figure><img src="assets/img/photos/pasticcini-nocciola.jpg" width="1600" height="2400" loading="lazy" alt="Éclair glassati con nocciole e caramello"></figure>
+            <div class="card-body">
+              <span class="card-tag">Pasticcini</span>
+              <h3>Bignè ed éclair</h3>
+              <p>Pasta choux del mattino: crema chantilly, pistacchio o cioccolato fondente. Anche in vassoio mignon.</p>
+              <p class="card-price">€ 1,80 al pezzo</p>
+            </div>
+          </article>
+          <article class="card reveal" data-cat="pasticcini">
+            <figure><img src="assets/img/foto/crostatine.jpg" width="1200" height="1800" loading="lazy" alt="Crostatine mignon con frutta fresca e fiori eduli"></figure>
+            <div class="card-body">
+              <span class="card-tag">Pasticcini</span>
+              <h3>Crostatine di frutta</h3>
+              <p>Frolla, crema e frutta fresca tagliata al momento. Il classico che mette d'accordo tutti.</p>
+              <p class="card-price">€ 2,50 al pezzo</p>
+            </div>
+          </article>
+
+          <article class="card reveal" data-cat="lievitati">
+            <figure><img src="assets/img/photos/croissant.jpg" width="1600" height="2844" loading="lazy" alt="Croissant sfogliato dorato appena sfornato"></figure>
+            <div class="card-body">
+              <span class="card-tag">Lievitati</span>
+              <h3>Croissant sfogliato</h3>
+              <p>36 ore di lievitazione con "Gino", il mio lievito madre. Vuoto, alla crema o alla confettura di lamponi.</p>
+              <p class="card-price">€ 1,50</p>
+            </div>
+          </article>
+          <article class="card reveal" data-cat="lievitati">
+            <figure><img src="assets/img/photos/panettone.jpg" width="1600" height="2400" loading="lazy" alt="Panettone artigianale con uvetta e canditi"></figure>
+            <div class="card-body">
+              <span class="card-tag">Stagionale</span>
+              <h3>Panettone artigianale</h3>
+              <p>Tre giorni di lavorazione, canditi fatti in casa. Da ottobre a gennaio, prenotabile tutto l'anno.</p>
+              <p class="card-price">€ 38 · 1 kg</p>
+            </div>
+          </article>
+          <article class="card reveal" data-cat="lievitati">
+            <figure><img src="assets/img/photos/buffet-dolci.jpg" width="1600" height="1067" loading="lazy" alt="Cesto di lievitati e brioche appena sfornati"></figure>
+            <div class="card-body">
+              <span class="card-tag">Lievitati</span>
+              <h3>Veneziana</h3>
+              <p>Soffice, profumata all'arancia, con granella di zucchero. La colazione della domenica.</p>
+              <p class="card-price">€ 16 · 750 g</p>
+            </div>
+          </article>
+
+          <article class="card reveal" data-cat="senza-glutine torte">
+            <figure><img src="assets/img/photos/caprese-mandorle.jpg" width="1500" height="2250" loading="lazy" alt="Torta caprese al cioccolato e mandorle, naturalmente senza glutine"></figure>
+            <div class="card-body">
+              <span class="card-tag">Senza glutine</span>
+              <h3>Caprese al cioccolato</h3>
+              <p>Mandorle e fondente, naturalmente senza glutine. Lavorata in area dedicata del laboratorio.</p>
+              <p class="card-price">€ 26 · 8 porzioni</p>
+            </div>
+          </article>
+          <article class="card reveal" data-cat="senza-glutine">
+            <figure><img src="assets/img/foto/crostata-meringa.jpg" width="1200" height="1800" loading="lazy" alt="Crostata di mandorle senza glutine con copertura a meringa"></figure>
+            <div class="card-body">
+              <span class="card-tag">Senza glutine</span>
+              <h3>Crostata di mandorle</h3>
+              <p>Frolla di farina di mandorle e riso, confettura di lamponi. Friabile come l'originale.</p>
+              <p class="card-price">€ 22 · 6 porzioni</p>
+            </div>
+          </article>
+
+          <article class="card reveal" data-cat="ordinazione torte">
+            <figure><img src="assets/img/foto/torta-cerimonia.jpg" width="1200" height="1795" loading="lazy" alt="Torta a tre piani con frutti di bosco e luci calde"></figure>
+            <div class="card-body">
+              <span class="card-tag">Su ordinazione</span>
+              <h3>Torte per cerimonie</h3>
+              <p>Matrimoni, battesimi, lauree. A piani, decorate a mano, disegnate con te su appuntamento.</p>
+              <p class="card-price">Preventivo su misura</p>
+            </div>
+          </article>
+          <article class="card reveal" data-cat="ordinazione">
+            <figure><img src="assets/img/foto/torta-festa.jpg" width="1200" height="1095" loading="lazy" alt="Torta personalizzata colorata a strati con decorazioni a tema festa"></figure>
+            <div class="card-body">
+              <span class="card-tag">Su ordinazione</span>
+              <h3>Torte personalizzate</h3>
+              <p>Scegli base, farcitura e decorazione: compleanni, anniversari e ricorrenze con 5 giorni di anticipo.</p>
+              <p class="card-price">Da € 30</p>
+            </div>
+          </article>
+        </div>
+
+        <p style="margin-top: 2.5rem; color: var(--mauve); font-size: var(--fs-small); max-width: 44rem;">
+          Tutti i prodotti possono contenere tracce di frutta a guscio, uova, latte e glutine (salvo linea dedicata). L'elenco completo degli allergeni è disponibile al banco: chiedi pure, rispondo volentieri.
+        </p>
+      </div>
+    </section>
+
+    <div class="festone festone--plum" aria-hidden="true"></div>
+    <section class="section section--photo cta-final" aria-labelledby="cta-titolo">
+      <div class="photo-bg" aria-hidden="true">
+        <img src="assets/img/photos/interno-bottega.jpg" width="1600" height="1067" loading="lazy" alt="">
+      </div>
+      <div class="container">
+        <h2 id="cta-titolo">Hai in mente una torta <span class="accent-script" style="color:#E58FAE;">tutta tua?</span></h2>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="ordini-speciali.html">Richiedi un preventivo</a>
+          <a class="btn btn--light" href="https://wa.me/393401234567" rel="noopener">Scrivimi su WhatsApp</a>
+        </div>
+        <p class="hours-inline">Per le torte su ordinazione bastano <strong>5 giorni di anticipo</strong> (10 per le cerimonie).</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <svg class="brand-whisk" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4v8"/><circle cx="20" cy="12" r="1.4" fill="currentColor" stroke="none"/><path d="M20 12C11 15 11 30 20 35"/><path d="M20 12C29 15 29 30 20 35"/><path d="M20 12C16 16 16 30 20 35"/><path d="M20 12C24 16 24 30 20 35"/><path d="M12.5 28c2.4 2.4 12.6 2.4 15 0"/></svg>
+          <span class="brand-name">Gaia's Cakes<small>Dolci su misura</small></span>
+        </a>
+        <p style="margin-top: 1rem; max-width: 28rem;">Torte, pasticcini e lievitati fatti a mano ogni mattina. Il profumo lo senti dalla strada.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/" rel="noopener" aria-label="Instagram — Gaia's Cakes">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://www.facebook.com/" rel="noopener" aria-label="Facebook — Gaia's Cakes">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h-2.5A4.5 4.5 0 0 0 8 7.5V10H5v4h3v7h4v-7h3l1-4h-4V7.5A1.5 1.5 0 0 1 13.5 6H15z"/></svg>
+          </a>
+        </div>
+      </div>
+      <nav aria-label="Mappa del sito">
+        <h4>Il sito</h4>
+        <ul>
+          <li><a href="chi-siamo.html">Chi siamo</a></li>
+          <li><a href="prodotti.html">Prodotti</a></li>
+          <li><a href="galleria.html">Galleria</a></li>
+          <li><a href="recensioni.html">Recensioni</a></li>
+          <li><a href="ordini-speciali.html">Ordini speciali</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h4>Orari e contatti</h4>
+        <ul>
+          <li>Piazza IV Novembre 30, 30030 Maerne (VE)</li>
+          <li><a href="tel:+390255123456">02 5512 3456</a></li>
+          <li><a href="https://wa.me/393401234567" rel="noopener">WhatsApp 340 123 4567</a></li>
+          <li>mar–sab 7:30–19:30</li>
+          <li>dom 8:00–13:00 · lun chiuso</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-year>2026</span> Gaia's Cakes · P.IVA 01234567890</span>
+      <span>Fatto a mano, come i miei dolci.</span>
+    </div>
+  </footer>
+
+  <nav class="action-bar" aria-label="Azioni rapide">
+    <a href="tel:+390255123456">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
+      Chiama
+    </a>
+    <a href="https://wa.me/393401234567" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9.2 8.4 8.6 8.6 0 0 1-3.7-.9L3 20l1-4.9a8.4 8.4 0 1 1 17-3.6z"/></svg>
+      WhatsApp
+    </a>
+    <a class="is-primary" href="ordini-speciali.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8"/><path d="M4 16h16"/><path d="M12 3v3"/><path d="M8 11V8.5C8 7 9 6 12 6s4 1 4 2.5V11"/></svg>
+      Ordina
+    </a>
+  </nav>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
