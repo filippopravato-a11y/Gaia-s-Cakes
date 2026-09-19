@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 210" role="img" aria-label="Gaia's Cakes — Dolci su misura">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Nunito+Sans:wght@700&amp;display=swap');
+    .wm { font-family: 'Great Vibes', cursive; fill: #6E3D64; }
+    .tg { font-family: 'Nunito Sans', Arial, sans-serif; fill: #6E3D64; font-weight: 700; letter-spacing: 10px; }
+  </style>
+  <g fill="none" stroke="#6E3D64" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(70,92) scale(1.9)">
+    <path d="M20 4v8"/>
+    <path d="M20 12C11 15 11 30 20 35"/>
+    <path d="M20 12C29 15 29 30 20 35"/>
+    <path d="M20 12C16 16 16 30 20 35"/>
+    <path d="M20 12C24 16 24 30 20 35"/>
+    <path d="M12.5 28c2.4 2.4 12.6 2.4 15 0"/>
+  </g>
+  <text class="wm" x="300" y="118" font-size="120" text-anchor="middle">Gaia's Cakes</text>
+  <text class="tg" x="305" y="172" font-size="24" text-anchor="middle">DOLCI SU MISURA</text>
+</svg>
